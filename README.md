@@ -4,7 +4,8 @@
 
 - pour commencer:
 
-![](http://i.imgur.com/OUkLi.gif)
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 
 - ```git clone https://github.com/jiaad/event_brite_originale.git ```
