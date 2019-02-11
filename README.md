@@ -1,24 +1,19 @@
-# README
+# EventBrite
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### The hacking project
 
-Things you may want to cover:
+- pour commencer:
 
-* Ruby version
+![](http://i.imgur.com/OUkLi.gif)
 
-* System dependencies
 
-* Configuration
+- ```git clone https://github.com/jiaad/event_brite_originale.git ```
+- ```rails db:create```
+- ```rails db:migrate```
+- ```rake db:create```
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+- par: Jiad , amadou , djemil
