@@ -3,7 +3,7 @@ class Attendance < ApplicationRecord
 
   def attendees_admin
       AttendeesMailer.attend_email(self).deliver_now
-    end
+  end
 
   validates :stripe_customer_id, presence: true
   belongs_to :event
