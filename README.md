@@ -10,7 +10,6 @@
 - ```git clone https://github.com/jiaad/event_brite_originale.git ```
 - ```rails db:create```
 - ```rails db:migrate```
-- ```rake db:create```
 
 
 
