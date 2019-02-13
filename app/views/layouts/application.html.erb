@@ -24,15 +24,15 @@
         <a class="nav-link" href="<%= root_path %>">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">créer un évenement</a>
+        <a class="nav-link" href="<%= new_event_path%>">créer un évenement</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link disabled" href="<%= event_index_path%>">liste des événements</a>
       </li>
     </ul>
     <ul>
     <% if user_signed_in? %>
-   <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <a class="nav-link" href="https://www.cultura.com/jean-michel-basquiat-9782362900402.html"%>"Mon Profil</a></button>
+   <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <a class="nav-link" href="#">"Mon Profil</a></button>
   <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><%= link_to "se deconnecter", destroy_user_session_path, :method => :delete%></button>
     <% else %>
        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><%= link_to "s'inscrire", new_user_registration_path %></button>
