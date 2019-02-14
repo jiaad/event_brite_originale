@@ -1,3 +1,6 @@
+# Erreur de lien
+- tu peux verifier ici steuplait::    https://github.com/jiaad/event_brite_triple_original
+
 # EventBrite
 
 ### The hacking project
